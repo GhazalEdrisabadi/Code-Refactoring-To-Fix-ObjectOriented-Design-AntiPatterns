@@ -1,0 +1,10 @@
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\obj\Debug\Final Project.csprojAssemblyReference.cache
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\bin\Debug\Final Project.exe.config
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\bin\Debug\Final Project.exe
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\bin\Debug\Final Project.pdb
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\bin\Debug\Antlr4.Runtime.Standard.dll
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\bin\Debug\Antlr4.Runtime.Standard.xml
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\obj\Debug\Final Project.csproj.CopyComplete
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\obj\Debug\Final Project.exe
+C:\git\ObjectOriented-AntiPatterns-Refactoring\Final Project\obj\Debug\Final Project.pdb

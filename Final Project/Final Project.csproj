@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Final_Project</RootNamespace>
     <AssemblyName>Final Project</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -46,12 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="antlr4\CSharpLexer.cs" />
+    <Compile Include="antlr4\CSharpLexerBase.cs" />
+    <Compile Include="antlr4\CSharpParser.cs" />
+    <Compile Include="antlr4\CSharpParserBase.cs" />
+    <Compile Include="antlr4\CSharpParserBaseListener.cs" />
+    <Compile Include="antlr4\CSharpParserListener.cs" />
+    <Compile Include="antlr4\CSharpPreprocessorParser.cs" />
+    <Compile Include="antlr4\CSharpPreprocessorParserBase.cs" />
+    <Compile Include="antlr4\CSharpPreprocessorParserBaseListener.cs" />
+    <Compile Include="antlr4\CSharpPreprocessorParserListener.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="antlr4\CSharpLexer.g4" />
+    <None Include="antlr4\CSharpLexer.interp" />
+    <None Include="antlr4\CSharpLexer.tokens" />
+    <None Include="antlr4\CSharpParser.g4" />
+    <None Include="antlr4\CSharpParser.interp" />
+    <None Include="antlr4\CSharpParser.tokens" />
+    <None Include="antlr4\CSharpPreprocessorParser.g4" />
+    <None Include="antlr4\CSharpPreprocessorParser.interp" />
+    <None Include="antlr4\CSharpPreprocessorParser.tokens" />
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
