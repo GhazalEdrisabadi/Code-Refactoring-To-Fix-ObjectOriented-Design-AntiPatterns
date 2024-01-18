@@ -1,0 +1,27 @@
+public class EventHandler{
+
+    public void handle (BankingEvent e) {
+        housekeeping(e);
+    }
+
+    public void stop (int a) {
+    }
+
+}
+
+public class StartEventHandler extends EventHandler{
+
+    @Override
+    public void handle(BankingEvent e) {
+        super.handle(e);
+        initiateTransfer(e);
+    }
+}
+
+public class TransferEventHandler extends EventHandler{
+
+    @Override
+    public void stop(int a) {
+        super.stop(e);
+    }
+}
