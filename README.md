@@ -1,0 +1,2 @@
+Object-oriented design anti-patterns describe bad design solutions to common problems. Detection and correction of these anti-patterns according to object-oriented source code criteria can be used as part of the software program improvement life cycle to reduce software system maintenance and increase software quality. The aim of this project is to provide mechanisms for modifying and reconstructing these anti-patterns by computer.
+It implements an automatic approach for detecting some object-oriented design anti-patterns and refactoring them using the Antler tool.
